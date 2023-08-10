@@ -4,7 +4,7 @@ import ExpenseItem from './ExpenseItem';
 import "../Expenses/ExpensesList.css";
 
 const ExpensesList = (props) => {
-    let expensesContent = <p> No Expenses found</p>;
+    let expensesContent = <p> No Expenses found here.</p>;
 
 
     if(props.items.length === 0) {
